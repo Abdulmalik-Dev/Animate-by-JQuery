@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>animate</title>
+
   <link rel="stylesheet" href="smallAnimate.css">
 </head>
 <body>
+
   <form>
+    <!-- The small discription about author -->
     <p>The small animate created by Abdulmalik</p>
-    <label>Phone number <span>*</span> </label><input type="number" placeholder="Type your phone number !" required min="10" max="10">
-    <label>Password <span>*</span> </label><input type="text" placeholder="Type your password !" required >
+
+    <!-- Input to add email -->
+    <label>Email <span>*</span>  </label>
+    <input type="email" placeholder="Type your email !" required>
+
+    <!-- Input to add password -->
+    <label>Password <span>*</span> </label>
+    <input type="password" placeholder="Type your password !" required  minlength="5" maxlength="15" >
+
+    <!-- Input to select if you want to remember you -->
     <input type="checkbox" id="input" style="display: inline-block; width: 20px; float: left;">
     <label >Remember me? </label>
+
+    <!-- Button for login -->
     <button type="submit"> login</button>
   </form>
+
+  <!-- To bind JQuery file -->
 <script src="../jquery-3.5.1.min.js"></script>
+
+<!--To bind Javascript file  -->
 <script src="smallAnimate.js"></script>
 </body>
 </html>
