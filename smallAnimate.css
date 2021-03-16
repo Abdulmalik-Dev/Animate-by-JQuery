@@ -2,9 +2,13 @@
     padding: 0px;
     margin: 0px;
   }
+
+  /* The style for body */
   body{
     background: gray;
   }
+
+  /* The style for element form */
   form{
     width: 430px;
     padding: 80px;
@@ -16,6 +20,8 @@
     text-align: center;
     background: white;
   }
+
+  /* The paragraph for discription about author */
   p{
     background: center;
     background-color: aqua;
@@ -26,6 +32,8 @@
     border-radius: 20px;
     color: blue;
   }
+
+  /* style for all inputs in page */
   input{
     display: block;
     border: 2px solid black;
@@ -34,11 +42,16 @@
     height: 40px;
     margin: 5px 1%;
   }
+
+  /* Style for all label in page */
   label{
     color: blue;
     line-height: 50px;
     float: left;
+    font-size: 25px;
   }
+
+  /* Style for login button */
   button{
   width: 95%;
   height: 30px;
@@ -47,7 +60,7 @@
   bottom: 34px;
   left: 3%;
   }
-  label{
-    font-size: 25px;
-  }
+
+  /* The span for (*) for required */
+  
   span{color:red;}
