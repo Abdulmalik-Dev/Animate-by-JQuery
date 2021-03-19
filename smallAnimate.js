@@ -1,5 +1,5 @@
 $(document).ready( function () {
-    // To hide the elements in load page 
+    // To hide the elements from page
     $("p , input , label , button").hide()
 
     // To make slide of form in 1 second
