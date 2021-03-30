@@ -7,8 +7,16 @@
 
   <title>animate</title>
 
+  <!-- To bind Css file -->
   <link rel="stylesheet" href="smallAnimate.css">
+
+  <!-- To bind normalize file  -->
+  <link rel="stylesheet" href="normalize.css">
+
+  <!-- To bind responsive file  -->
+  <link rel="stylesheet" href="responsive.css">
 </head>
+
 <body>
 
   <form>
@@ -16,25 +24,26 @@
     <p>The small animate created by Abdulmalik</p>
 
     <!-- Input to add email -->
-    <label>Email <span>*</span>  </label>
+    <label>Email <span>*</span> </label>
     <input type="email" placeholder="Type your email !" required>
 
     <!-- Input to add password -->
     <label>Password <span>*</span> </label>
-    <input type="password" placeholder="Type your password !" required  minlength="5" maxlength="15" >
+    <input type="password" placeholder="Type your password !" required minlength="5" maxlength="15">
 
     <!-- Input to select if you want to remember you -->
-    <input type="checkbox" id="input" style="display: inline-block; width: 20px; float: left;">
-    <label >Remember me? </label>
+    <input type="checkbox" id="input-ckeckbox">
+    <label for="input-ckeckbox">Remember me? </label>
 
     <!-- Button for login -->
     <button type="submit"> login</button>
   </form>
 
   <!-- To bind JQuery file -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!--To bind Javascript file  -->
-<script src="smallAnimate.js"></script>
+  <!--To bind Javascript file  -->
+  <script src="smallAnimate.js"></script>
 </body>
+
 </html>

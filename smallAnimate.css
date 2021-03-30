@@ -2,10 +2,8 @@
     padding: 0px;
     margin: 0px;
   }
-
-  /* The style for body */
   body{
-    background: gray;
+    width: 100%;
   }
 
   /* The style for element form */
@@ -43,12 +41,21 @@
     margin: 5px 1%;
   }
 
+  /* For input check box type  */
+  #input-ckeckbox{
+    display: inline-block;
+    width: 20px;
+    margin: 5px;
+    float: left;
+  }
+
   /* Style for all label in page */
   label{
     color: blue;
     line-height: 50px;
     float: left;
     font-size: 25px;
+    margin: 0 5px;
   }
 
   /* Style for login button */
@@ -63,4 +70,4 @@
 
   /* The span for (*) for required */
   
-  span{color:red;}
+  span{ color:red }
