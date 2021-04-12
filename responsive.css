@@ -17,6 +17,7 @@
 
     /* Style for all label in page */
     label{
+      
       font-size: 18px;
     }
 }
@@ -68,10 +69,8 @@
 
 @media (max-width: 408px){
   p{
-    position: absolute;
-    left: 2px;
-    top: 30px;
-    width: 90%;
+    left: -4px;
+    width: 95%;
   }
   input{
     width: 160%;
